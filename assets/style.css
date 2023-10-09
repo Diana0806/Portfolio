@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box; /* Important pour la gestion des tailles des éléments */
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+
+header {
+  position: fixed;
+  width: 100%;
+  background-image: url("./images/navBar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-link {
+  color: #040507 !important;
+  /* font-family: "Josefin Sans", sans-serif; */
+  font-size: 20px !important;
+}
+
+.btn-primary {
+  color: #040507 !important;
+  background-color: #cb7381 !important;
+  border-color: #cb7381 !important;
+  font-size: 20px !important;
+}
+
+.profil {
+  color: #040507 !important;
+}
+
+.profil p {
+  font-size: 24px !important;
+  padding-left: 4px !important;
+  box-sizing: border-box;
+}
+
+.profil h3 {
+  font-size: 64px !important;
+  box-sizing: border-box;
+}
+
+.profil-title {
+  height: 100vh;
+  /* font-family: "Josefin Sans", sans-serif !important; */
+}
+
+#competences {
+  height: 100vh;
+}
+
+.dev h2 {
+    color: #040507 !important;
+    font-size: 36px;
+    /* font-family: "Josefin Sans", sans-serif !important; */
+  }
+
+.dev p {
+  color: #040507 !important;
+  font-size: 28px;
+  /* font-family: "Josefin Sans", sans-serif !important; */
+}
+
+.ux h2 {
+    color: #e6dfe4 !important;
+    font-size: 36px;
+    /* font-family: "Josefin Sans", sans-serif !important; */
+  }
+
+.ux p {
+  color: #e6dfe4 !important;
+  font-size: 28px;
+  /* font-family: "Josefin Sans", sans-serif !important; */
+}
+
+.text-animation {
+  display: inline-block;
+  position: relative;
+  color: transparent;
+  /* text-transform: uppercase; */
+}
+
+.text-animation::before {
+  content: "";
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #0e182d;
+  width: 0;
+  height: 1.2em;
+  -webkit-transform: translate(-50%, -55%);
+  -ms-transform: translate(-50%, -55%);
+  transform: translate(-50%, -55%);
+}
+
+.text-animation.state-1::before {
+  width: 1px;
+}
+
+.text-animation.state-2::before {
+  width: 0.9em;
+}
+
+.text-animation.state-3 {
+  color: black;
+}
+
+.text-animation.state-3::before {
+  width: 0;
+}
+
+.socialmedia{
+  position: fixed;
+  left: 20px;
+  top: 40%;
+  bottom: 60%;
+} 
+
+.sm-item {
+    margin-left: 10px;
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+}
+.sm-item:hover{
+    transform: scale(1.1, 1.1) rotatey(360deg);
+    box-shadow: 0 0 10px rgba(219, 61, 42, 0.7); /* glowing effect */
+    background-color: #DB3D2A;
+    border-radius: 50%;
+}
+
+.projets {
+  color: #040507 !important;
+  font-size: 36px;
+}
+
+/* Glowing circles */
+/* .circleBehind a::before,
+.circleBehind a::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: -1;
+    box-shadow: 0 0 10px #040507; /* Add box-shadow for glowing effect */
+/* }
+
+.circleBehind a::after {
+    transition: all 0.4s;
+}
+
+.circleBehind a:hover::before {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+    box-shadow: 0 0 20px #DB3D2A; /* Increase box-shadow for a stronger glowing effect */
+/* }
+
+.circleBehind a:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1.3);
+} */ 
+
+ul li a {
+  color: #040507;
+  transition: 10ms;
+}
+
+ul li a:hover {
+  color: #DFD6DB; /* color on hover */
+}
+
+/* .btn-primary:hover .cursor-area {
+  background-color: #584B55 !important;
+
+} */
+
+.cursor {
+  position: fixed;
+
+  width: 100px;
+  height: 100px;
+
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='30px' width='30px' viewbox='0 0 30 30'%3E%3Ccircle cx='15' cy='15' r='15' /%3E%3C/svg%3E")
+    no-repeat 50% 50%;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='30px' width='30px' viewbox='0 0 30 30'%3E%3Ccircle cx='15' cy='15' r='15' fill='%23000' /%3E%3C/svg%3E")
+    no-repeat 50% 50%;
+  -webkit-mask-size: 15%;
+  mask-size: 15%;
+
+  background-color: #cb7381;
+
+  transition: transform 0.001s ease-in-out, background-color 0.1s ease;
+
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+ul li:hover ~ .cursor {
+  background-color: #DFD6DB;
+  mix-blend-mode: difference;
+
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+}
+
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(to right, #D7464D, #B15F6D);
+  color: #040507;
+  border: 1px solid #cb7381;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Центрирование вертикально и горизонтально */
+}
+
+#scrollToTop:hover {
+  border: 1px solid #2B2E35;
+  background: linear-gradient(to right, #2B2E35, #040507);
+  color: #D7464D;
+  box-shadow: 0 0 20px #DB3D2A;
+}
+
+.softskills h2 {
+  color: #040507 !important;
+  font-size: 36px;
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+  margin-top: 0px
+}
+
+.softskills div {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+ 
+}
+
+.skills {
+display: inline-block;
+position: relative;
+white-space: nowrap;
+top: 0;
+left: 0;
+-webkit-animation: move 5s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 1s; 
+
+}
+
+.skills p {
+  font-family: "Josefin Sans", sans-serif !important;
+  color: #e6dfe4 !important;
+  font-size: 28px;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -58px; }
+40% { top: -116px; }
+60% { top: -174px; }
+80% { top: -232px; }
+}
+
+/* Projects */
+
