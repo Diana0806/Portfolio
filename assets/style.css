@@ -20,6 +20,7 @@ header {
   background-image: url("./images/navBar.png");
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 100;
 }
 
 body {
@@ -93,6 +94,7 @@ body {
   display: inline-block;
   position: relative;
   color: transparent;
+  z-index: 10;
   /* text-transform: uppercase; */
 }
 
