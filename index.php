@@ -28,7 +28,7 @@
               <a class="nav-link" href="#competences">Mes compétences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mes projets</a>
+              <a class="nav-link" href="#projets">Mes projets</a>
             </li>
             <li class="nav-item">
               <a class="nav-link btn btn-primary" href="#">Télécharger mon CV</a>
@@ -97,7 +97,7 @@
     </div>
 
     <div id="competences" class="row competences">
-      <div class="d-flex align-items-center gap-4 mb-5">
+      <div class="d-flex align-items-center gap-4">
         <div class="dev col-md-7">
           <h2 class="featurette-heading animated-title">
             Développeur Web Junior
@@ -120,7 +120,7 @@
         </div>
       </div>
 
-      <div class="softskills text-center container d-flex justify-content-center mt-5">
+      <div class="softskills text-center container d-flex justify-content-center">
         <h2>Soft Skills :</h2>
         <div>
           <span class="skills">
@@ -134,202 +134,18 @@
       </div>
     </div>
 
-    <div>
+    <div id="projets">
       <div class="projets py-5 text-center container">
         <h2 class="fw-light">Mes Projets</h2>
       </div>
 
       <div class="albumprojets">
         <div class="container">
-          <!-- <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="296"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                    <a href="https://diana-mountain.projets.garage404.com/"></a>
-                  </svg>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="296"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="296"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="296"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="296"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="296"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="296"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="296"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card shadow-sm">
-                  <svg
-                    class="bd-placeholder-img card-img-top"
-                    width="100%"
-                    height="296"
-                    xmlns="http://www.w3.org/2000/svg"
-                    role="img"
-                    aria-label="Placeholder: Thumbnail"
-                    preserveAspectRatio="xMidYMid slice"
-                    focusable="false"
-                  >
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#55595c" />
-                    <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                      Thumbnail
-                    </text>
-                  </svg>
-                </div>
-              </div>
-            </div> -->
+          
           <div class="items">
             <?php
             $items = [
-              ['t' => 'X-rays', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-xrays.png'],
+              ['t' => 'The Mountain', 'i' => 'assets/images/ProjectMountain.png'],
               ['t' => 'Worms', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-worms.png'],
               ['t' => 'Aurora', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-aurora.png'],
               ['t' => 'Angus', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-angus.png'],
@@ -338,11 +154,9 @@
               ['t' => 'The Bride', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-bride.png'],
               ['t' => 'The Man', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-man.png'],
               ['t' => 'D', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-d.png'],
-              ['t' => 'V', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-v.png'],
-              ['t' => 'V II', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-v2.png'],
-              ['t' => 'V III', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-v3.png'],
             ];
 
+            
             foreach ($items as $index => $item) { ?>
               <div class="item">
                 <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
@@ -353,7 +167,8 @@
                   </defs>
                   <text class="svg-text" x="50%" y="50%" dy=".3em"><?php echo $item['t']; ?></text>
                   <g clip-path="url(#clip-<?php echo $index; ?>)">
-                    <image xlink:href="<?php echo $item['i']; ?>" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" class="img-projects"></image>
+                    <image href="<?php echo $item['i']; ?>" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" class="img-projects"/>
+                    
                     <text class="svg-masked-text" x="50%" y="50%" dy=".3em"><?php echo $item['t']; ?></text>
                   </g>
                 </svg>

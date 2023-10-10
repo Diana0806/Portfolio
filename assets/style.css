@@ -62,7 +62,8 @@ body {
   /* font-family: "Josefin Sans", sans-serif !important; */
 }
 
-#competences {
+#competences, #projets {
+  padding-top: 94px;
   height: 100vh;
 }
 
@@ -272,6 +273,10 @@ ul li:hover ~ .cursor {
   position: relative;
   height: 50px;
  
+}
+
+.softskills {
+  margin-top: 180px !important;
 }
 
 .skills {
