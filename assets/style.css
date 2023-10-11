@@ -1,5 +1,287 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
+@media (min-width: 601px) {
+  .socialmedia{
+    display: flex !important;
+  }
+  
+}
+
+@media (max-width: 600px) {
+
+  /*mobile */
+  .container {
+    width: 90%;
+  }
+
+  .socialmedia-horizontal .sm-item img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+  }
+
+  .socialmedia {
+    display: none !important;
+  }
+
+  .socialmedia-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .socialmedia-horizontal .socialmedia {
+    gap: 2px !important;
+  }
+
+  .img-fluid {
+    width: 120px;
+    height: 120px;
+  }
+
+  .nav-link {
+    font-size: 16px !important;
+  }
+
+  .btn-primary {
+    font-size: 16px !important;
+  }
+
+  .profil p {
+    font-size: 18px !important;
+    padding-left: 4px !important;
+    box-sizing: border-box;
+  }
+
+  .profil h3 {
+    font-size: 28px !important;
+    box-sizing: border-box;
+  }
+
+  #scrollToTop {
+    width: 30px;
+    height: 30px;
+  }
+
+  .dev h2 {
+    font-size: 24px;
+  }
+
+  .dev p {
+    font-size: 18px;
+  }
+
+  .ux h2 {
+    font-size: 24px;
+  }
+
+  .ux p {
+    font-size: 18px;
+  }
+
+  .softskills h2 {
+    font-size: 24px;
+  }
+
+  .skills p {
+    font-size: 18px;
+  }
+
+  .projets {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  /*tablets */
+  .container {
+    width: 90%;
+  }
+
+  .sm-item img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .img-fluid {
+    width: 180px;
+    height: 180px;
+  }
+
+  .nav-link {
+    font-size: 18px !important;
+  }
+
+  .btn-primary {
+    font-size: 18px !important;
+  }
+
+  .profil p {
+    font-size: 20px !important;
+    padding-left: 4px !important;
+    box-sizing: border-box;
+  }
+
+  .profil h3 {
+    font-size: 48px !important;
+    box-sizing: border-box;
+  }
+
+  .dev h2 {
+    font-size: 28px;
+  }
+
+  .dev p {
+    font-size: 18px;
+  }
+
+  .ux h2 {
+    font-size: 28px;
+  }
+
+  .ux p {
+    font-size: 18px;
+  }
+
+  .softskills h2 {
+    font-size: 28px;
+  }
+
+  .skills p {
+    font-size: 18px;
+  }
+
+  .socialmedia-horizontal {
+    display: none;
+  }
+
+  .projets {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+  /*laptops */
+  .container {
+    width: 90%;
+  }
+
+  .sm-item img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .img-fluid {
+    width: 200px;
+    height: 200px;
+  }
+
+  .nav-link {
+    font-size: 18px !important;
+  }
+
+  .btn-primary {
+    font-size: 18px !important;
+  }
+
+  .profil p {
+    font-size: 22px !important;
+    padding-left: 4px !important;
+  }
+
+  .profil h3 {
+    font-size: 48px !important;
+  }
+
+  .dev h2 {
+    font-size: 32px;
+  }
+
+  .dev p {
+    font-size: 24px;
+  }
+
+  .ux h2 {
+    font-size: 32px;
+  }
+
+  .ux p {
+    font-size: 24px;
+  }
+
+  .softskills h2 {
+    font-size: 32px;
+  }
+
+  .skills p {
+    font-size: 24px;
+  }
+
+  .socialmedia-horizontal {
+    display: none;
+  }
+
+  .projets {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1441px) {
+
+  /*ordis*/
+  .container {
+    width: 90%;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+  }
+
+  .btn-primary {
+    font-size: 20px !important;
+  }
+
+  .profil p {
+    font-size: 24px !important;
+    padding-left: 4px !important;
+  }
+
+  .profil h3 {
+    font-size: 64px !important;
+  }
+
+  .dev h2 {
+    font-size: 36px;
+  }
+
+  .dev p {
+    font-size: 28px;
+  }
+
+  .ux h2 {
+    font-size: 36px;
+  }
+
+  .ux p {
+    font-size: 28px;
+  }
+
+  .softskills h2 {
+    font-size: 36px;
+  }
+
+  .skills p {
+    font-size: 28px;
+  }
+
+  .socialmedia-horizontal {
+    display: none;
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +290,8 @@
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
-  box-sizing: border-box; /* Important pour la gestion des tailles des éléments */
+  box-sizing: border-box;
+  /* Important pour la gestion des tailles des éléments */
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -27,19 +310,19 @@ body {
   background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: linear-gradient(#E0DADE, #D9D0D5);
 }
 
 .nav-link {
   color: #040507 !important;
   /* font-family: "Josefin Sans", sans-serif; */
-  font-size: 20px !important;
+  /* font-size: 20px !important; */
 }
 
 .btn-primary {
   color: #040507 !important;
   background-color: #cb7381 !important;
   border-color: #cb7381 !important;
-  font-size: 20px !important;
 }
 
 .profil {
@@ -47,13 +330,13 @@ body {
 }
 
 .profil p {
-  font-size: 24px !important;
+  /* font-size: 24px !important; */
   padding-left: 4px !important;
   box-sizing: border-box;
 }
 
 .profil h3 {
-  font-size: 64px !important;
+  /* font-size: 64px !important; */
   box-sizing: border-box;
 }
 
@@ -62,32 +345,29 @@ body {
   /* font-family: "Josefin Sans", sans-serif !important; */
 }
 
-#competences, #projets {
-  padding-top: 94px;
+#competences,
+#projets {
+  padding-top: 300px;
   height: 100vh;
 }
 
 .dev h2 {
-    color: #040507 !important;
-    font-size: 36px;
-    /* font-family: "Josefin Sans", sans-serif !important; */
-  }
+  color: #040507 !important;
+  /* font-family: "Josefin Sans", sans-serif !important; */
+}
 
 .dev p {
   color: #040507 !important;
-  font-size: 28px;
   /* font-family: "Josefin Sans", sans-serif !important; */
 }
 
 .ux h2 {
-    color: #e6dfe4 !important;
-    font-size: 36px;
-    /* font-family: "Josefin Sans", sans-serif !important; */
-  }
+  color: #e6dfe4 !important;
+  /* font-family: "Josefin Sans", sans-serif !important; */
+}
 
 .ux p {
   color: #e6dfe4 !important;
-  font-size: 28px;
   /* font-family: "Josefin Sans", sans-serif !important; */
 }
 
@@ -129,65 +409,30 @@ body {
   width: 0;
 }
 
-.socialmedia{
+.socialmedia {
   position: fixed;
   left: 20px;
   top: 40%;
   bottom: 60%;
-} 
+}
 
 .sm-item {
-    margin-left: 10px;
-    float: left;
-    color: #fff;
-    font-size: 20px;
-    cursor: pointer;
-    transition: all .5s ease-in-out;
+  margin-left: 10px;
+  float: left;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
 
 }
-.sm-item:hover{
-    transform: scale(1.1, 1.1) rotatey(360deg);
-    box-shadow: 0 0 10px rgba(219, 61, 42, 0.7); /* glowing effect */
-    background-color: #DB3D2A;
-    border-radius: 50%;
+
+.sm-item:hover {
+  transform: scale(1.1, 1.1) rotatey(360deg);
+  box-shadow: 0 0 10px rgba(219, 61, 42, 0.7);
+  /* glowing effect */
+  background-color: #DB3D2A;
+  border-radius: 50%;
 }
-
-.projets {
-  color: #040507 !important;
-  font-size: 36px;
-}
-
-/* Glowing circles */
-/* .circleBehind a::before,
-.circleBehind a::after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: transparent;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-    z-index: -1;
-    box-shadow: 0 0 10px #040507; /* Add box-shadow for glowing effect */
-/* }
-
-.circleBehind a::after {
-    transition: all 0.4s;
-}
-
-.circleBehind a:hover::before {
-    opacity: 1;
-    transform: translateX(-50%) translateY(-50%) scale(1);
-    box-shadow: 0 0 20px #DB3D2A; /* Increase box-shadow for a stronger glowing effect */
-/* }
-
-.circleBehind a:hover::after {
-    opacity: 1;
-    transform: translateX(-50%) translateY(-50%) scale(1.3);
-} */ 
 
 ul li a {
   color: #040507;
@@ -195,13 +440,9 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #DFD6DB; /* color on hover */
+  color: #DFD6DB;
+  /* color on hover */
 }
-
-/* .btn-primary:hover .cursor-area {
-  background-color: #584B55 !important;
-
-} */
 
 .cursor {
   position: fixed;
@@ -209,10 +450,8 @@ ul li a:hover {
   width: 100px;
   height: 100px;
 
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='30px' width='30px' viewbox='0 0 30 30'%3E%3Ccircle cx='15' cy='15' r='15' /%3E%3C/svg%3E")
-    no-repeat 50% 50%;
-  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='30px' width='30px' viewbox='0 0 30 30'%3E%3Ccircle cx='15' cy='15' r='15' fill='%23000' /%3E%3C/svg%3E")
-    no-repeat 50% 50%;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='30px' width='30px' viewbox='0 0 30 30'%3E%3Ccircle cx='15' cy='15' r='15' /%3E%3C/svg%3E") no-repeat 50% 50%;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='30px' width='30px' viewbox='0 0 30 30'%3E%3Ccircle cx='15' cy='15' r='15' fill='%23000' /%3E%3C/svg%3E") no-repeat 50% 50%;
   -webkit-mask-size: 15%;
   mask-size: 15%;
 
@@ -224,7 +463,7 @@ ul li a:hover {
   transform: translate(-50%, -50%);
 }
 
-ul li:hover ~ .cursor {
+ul li:hover~.cursor {
   background-color: #DFD6DB;
   mix-blend-mode: difference;
 
@@ -248,7 +487,8 @@ ul li:hover ~ .cursor {
   transition: background-color 0.3s ease, border-color 0.3s ease;
   display: flex;
   justify-content: center;
-  align-items: center; /* Центрирование вертикально и горизонтально */
+  align-items: center;
+  /* Центрирование вертикально и горизонтально */
 }
 
 #scrollToTop:hover {
@@ -260,7 +500,6 @@ ul li:hover ~ .cursor {
 
 .softskills h2 {
   color: #040507 !important;
-  font-size: 36px;
   height: 50px;
   float: left;
   margin-right: 0.3em;
@@ -272,7 +511,7 @@ ul li:hover ~ .cursor {
   overflow: hidden;
   position: relative;
   height: 50px;
- 
+
 }
 
 .softskills {
@@ -280,36 +519,53 @@ ul li:hover ~ .cursor {
 }
 
 .skills {
-display: inline-block;
-position: relative;
-white-space: nowrap;
-top: 0;
-left: 0;
--webkit-animation: move 5s;
--webkit-animation-iteration-count: infinite;
--webkit-animation-delay: 1s; 
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  -webkit-animation: move 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
 
 }
 
 .skills p {
   font-family: "Josefin Sans", sans-serif !important;
-  color: #e6dfe4 !important;
-  font-size: 28px;
+  /* color: #e6dfe4 !important; */
+  color: #CC3B42 !important;
+  /* color: #960E09 !important; */
 }
 
 @keyframes move {
-0%  { top: 0px; }
-20% { top: -58px; }
-40% { top: -116px; }
-60% { top: -174px; }
-80% { top: -232px; }
+  0% {
+    top: 0px;
+  }
+
+  20% {
+    top: -58px;
+  }
+
+  40% {
+    top: -116px;
+  }
+
+  60% {
+    top: -174px;
+  }
+
+  80% {
+    top: -232px;
+  }
 }
 
 /* Projects */
+.projets {
+  color: #040507 !important;
+  font-size: 36px;
+}
 
-
-a:hover 
-{
+a:hover {
   opacity: .8;
 }
 
@@ -334,6 +590,7 @@ circle {
 
 text {
   font-size: 1.1rem;
+  font-family: "Josefin Sans", sans-serif !important;
   text-transform: uppercase;
   text-anchor: middle;
   letter-spacing: 1px;
@@ -341,10 +598,11 @@ text {
 }
 
 .svg-text {
-  fill: lighten(#2f3238, 16)
+  fill: lighten(#2f3238, 16);
 }
+
 .svg-masked-text {
-  fill: rgba(#fff, 1);
+  fill: transparent;
 }
 
 .img-projects {
@@ -369,7 +627,7 @@ text {
   height: 200px;
   margin: 5px;
   cursor: pointer;
-  background-color: #2f3238;
+  background-color: #584B55;
   border-radius: 2px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02), inset 0 0px 0px 1px rgba(0, 0, 0, 0.07);
   transform: translateZ(0);
@@ -379,5 +637,3 @@ text {
 .item:hover image {
   transform: scale(1);
 }
-
-

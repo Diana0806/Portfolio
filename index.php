@@ -40,7 +40,7 @@
     </nav>
   </header>
 
-  <section class="socialmedia d-flex flex-column gap-4 align-items-center">
+  <section class="socialmedia flex-column gap-4 align-items-center">
     <div class="line ps-2">
       <img src="./assets/images/line1.png" />
     </div>
@@ -70,17 +70,18 @@
   <main class="container">
     <div id="profile" class="row profil-title">
       <div class="h-100 d-flex align-items-center">
-        <div class="d-flex align-items-center gap-4">
-          <div>
+        <div class="d-flex align-items-center gap-4 row w-100">
+          <div class="col-sm-3 d-flex justify-content-center">
             <img src="./assets/images/avatar.png" class="img-fluid" alt="Bootstrap Themes" width="250" height="250" loading="lazy" />
           </div>
-          <div class="profil">
+          <div class="profil col-sm-8">
             <h3 class="decode-text">
               <span class="text-animation">D</span>
               <span class="text-animation">i</span>
               <span class="text-animation">a</span>
               <span class="text-animation">n</span>
               <span class="text-animation">a</span>
+          
               <span class="text-animation">N</span>
               <span class="text-animation">o</span>
               <span class="text-animation">v</span>
@@ -141,22 +142,22 @@
 
       <div class="albumprojets">
         <div class="container">
-          
+
           <div class="items">
             <?php
             $items = [
               ['t' => 'The Mountain', 'i' => 'assets/images/ProjectMountain.png'],
-              ['t' => 'Worms', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-worms.png'],
-              ['t' => 'Aurora', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-aurora.png'],
-              ['t' => 'Angus', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-angus.png'],
-              ['t' => 'Huitzi', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-huitzi.png'],
-              ['t' => 'Dalí', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-dali.png'],
-              ['t' => 'The Bride', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-bride.png'],
-              ['t' => 'The Man', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-man.png'],
-              ['t' => 'D', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-d.png'],
+              ['t' => 'Luxury Services', 'i' => 'assets/images/ProjectLuxuryServices.png'],
+              ['t' => 'Comparoperator', 'i' => 'assets/images/ProjectComparoperator.png'],
+              ['t' => 'ZOO', 'i' => 'assets/images/ProjectZOO.png'],
+              ['t' => 'Combat', 'i' => 'assets/images/ProjectCombat.png'],
+              ['t' => 'Yellow', 'i' => 'assets/images/ProjectYellow.png'],
+              ['t' => 'QUIZ', 'i' => 'assets/images/ProjectQUIZ.png'],
+              // ['t' => 'The Man', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-man.png'],
+              // ['t' => 'D', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-d.png'],
             ];
 
-            
+
             foreach ($items as $index => $item) { ?>
               <div class="item">
                 <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
@@ -167,8 +168,8 @@
                   </defs>
                   <text class="svg-text" x="50%" y="50%" dy=".3em"><?php echo $item['t']; ?></text>
                   <g clip-path="url(#clip-<?php echo $index; ?>)">
-                    <image href="<?php echo $item['i']; ?>" width="100%" height="100%" preserveAspectRatio="xMinYMin slice" class="img-projects"/>
-                    
+                    <image href="<?php echo $item['i']; ?>" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="img-projects" />
+
                     <text class="svg-masked-text" x="50%" y="50%" dy=".3em"><?php echo $item['t']; ?></text>
                   </g>
                 </svg>
@@ -192,6 +193,29 @@
         Contact <span class="email-icon">✉</span> diananovak871@gmail.com
       </p>
     </div>
+  
+  <!-- socialmedia-horizontal elements for mob version -->
+  <section class="socialmedia-horizontal">
+    <div>
+      <i class="sm-item">
+        <a href="https://linkedin.com/in/diana-novikova-voskanyan-587210250">
+          <img src="./assets/images/linkedin.png" width="48" height="48" loading="lazy" />
+        </a>
+      </i>
+      </div>
+    <div>
+      <i class="sm-item">
+        <a href="https://github.com/Diana0806">
+          <img src="./assets/images/github.png" width="48" height="48" loading="lazy" /></a>
+      </i>
+    </div>
+    <div>
+      <i class="sm-item">
+        <a href="https://www.behance.net/diananovikova4">
+          <img src="./assets/images/behance.png" width="48" height="48" loading="lazy" /></a>
+      </i>
+    </div>
+  </section>
   </footer>
 
   <script src="./assets/script.js"></script>

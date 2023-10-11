@@ -3,8 +3,8 @@
 These states are shuffled for a unique "decode" effect each time.
 * ------------------------------------------------------------------------ */
 
-function decodeText(){
-    var text = document.getElementsByClassName('decode-text')[0];
+function decodeText(text){
+    
     // debug with
     // console.log(text, text.children.length);
 
@@ -74,9 +74,11 @@ function shuffle(array) {
     return array;
 }
 
-
+var text = document.getElementsByClassName('decode-text')[0];
+// var text2 = document.getElementsByClassName('decode-text-2')[0];
 // Demo only stuff
-decodeText();
+decodeText(text);
+// decodeText(text2);
 
 // beware: refresh button can overlap this timer and cause state mixups
 setInterval(function(){ decodeText(); }, 10000);
