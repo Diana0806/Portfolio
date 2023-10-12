@@ -159,6 +159,7 @@
   .projets {
     font-size: 28px;
   }
+
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -196,27 +197,27 @@
   }
 
   .dev h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .dev p {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .ux h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .ux p {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .softskills h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .skills p {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .socialmedia-horizontal {
@@ -226,6 +227,26 @@
   .projets {
     font-size: 32px;
   }
+
+  #competences {
+    padding-top: 220px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100vh;
+  }
+  
+  #projets {
+    padding-top: 720px !important;
+    height: 100vh;
+  }
+
+  .softskills {
+    margin-top: 400px !important;
+  }  
+
+  footer {
+    margin-top: 1000px !important;
+    }
 }
 
 @media (min-width: 1441px) {
@@ -279,6 +300,10 @@
   .socialmedia-horizontal {
     display: none;
   }
+
+  .softskills {
+    margin-top: 700px !important;
+  }  
 }
 
 
@@ -346,7 +371,7 @@ body {
 }
 
 #competences {
-  padding-top: 300px;
+  padding-top: 290px;
   height: 100vh;
 }
 
@@ -518,10 +543,6 @@ ul li:hover~.cursor {
 
 }
 
-.softskills {
-  margin-top: 700px !important;
-}
-
 .skills {
   display: inline-block;
   position: relative;
@@ -643,6 +664,5 @@ text {
 }
 
 footer {
- 
 margin-top: 600px;
 }
