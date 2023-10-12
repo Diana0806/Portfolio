@@ -4,10 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <!-- Primary Meta Tags -->
+
+   <meta name="title" content="Diana Novikova - Portfolio">
+   <meta name="description" content="Portfolio d'une designer UX/UI et d'une développeuse web débutante. Découvrez mes compétences en conception d'interfaces utilisateur et explorez mes premiers pas dans le développement web. Parcourez des projets variés et innovants pour voir comment je marie la créativité de l'UX/UI avec mes compétences émergentes de développeuse web afin de créer des expériences numériques uniques.">
+   <meta name="keywords" content="coding, designer, UX designer, UI designer, UX/UI designer, web developer, Designer UX/UI, Développeur Web Junior, Figma, Adobe XD, GitHub, HTML, CSS, JavaScript, PHP, WordPress, Bootstrap, React, Symfony">
+   <link rel="icon" href="./assets/images/logo.png" type="image/png">
   <link rel="stylesheet" type="text/css" href="./assets/style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <title>Portfolio</title>
+  <title>Diana Novikova - Portfolio</title>
 </head>
 
 <body>
@@ -28,10 +36,10 @@
               <a class="nav-link" href="#competences">Mes compétences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projets">Mes projets</a>
+              <a class="nav-link" href="#items">Mes projets</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-primary" href="#">Télécharger mon CV</a>
+              <a class="nav-link btn btn-primary" href="./assets/images/CV_Diana_Novikova.pdf" target="_blank">Télécharger mon CV</a>
             </li>
             <div class="cursor"></div>
           </ul>
@@ -46,19 +54,19 @@
     </div>
     <div>
       <i class="sm-item">
-        <a href="https://linkedin.com/in/diana-novikova-voskanyan-587210250">
+        <a href="https://linkedin.com/in/diana-novikova-voskanyan-587210250" target="_blank">
           <img src="./assets/images/linkedin.png" width="48" height="48" loading="lazy" /></a>
       </i>
     </div>
     <div>
       <i class="sm-item">
-        <a href="https://github.com/Diana0806">
+        <a href="https://github.com/Diana0806" target="_blank">
           <img src="./assets/images/github.png" width="48" height="48" loading="lazy" /></a>
       </i>
     </div>
     <div>
       <i class="sm-item">
-        <a href="https://www.behance.net/diananovikova4">
+        <a href="https://www.behance.net/diananovikova4" target="_blank">
           <img src="./assets/images/behance.png" width="48" height="48" loading="lazy" /></a>
       </i>
     </div>
@@ -81,7 +89,7 @@
               <span class="text-animation">a</span>
               <span class="text-animation">n</span>
               <span class="text-animation">a</span>
-          
+
               <span class="text-animation">N</span>
               <span class="text-animation">o</span>
               <span class="text-animation">v</span>
@@ -121,7 +129,7 @@
         </div>
       </div>
 
-      <div class="softskills text-center container d-flex justify-content-center">
+      <div class="softskills text-center container d-flex justify-content-center" id="soft">
         <h2>Soft Skills :</h2>
         <div>
           <span class="skills">
@@ -143,16 +151,16 @@
       <div class="albumprojets">
         <div class="container">
 
-          <div class="items">
+          <div id="items" class="items">
             <?php
             $items = [
-              ['t' => 'The Mountain', 'i' => 'assets/images/ProjectMountain.png'],
-              ['t' => 'Luxury Services', 'i' => 'assets/images/ProjectLuxuryServices.png'],
-              ['t' => 'Comparoperator', 'i' => 'assets/images/ProjectComparoperator.png'],
-              ['t' => 'ZOO', 'i' => 'assets/images/ProjectZOO.png'],
-              ['t' => 'Combat', 'i' => 'assets/images/ProjectCombat.png'],
-              ['t' => 'Yellow', 'i' => 'assets/images/ProjectYellow.png'],
-              ['t' => 'QUIZ', 'i' => 'assets/images/ProjectQUIZ.png'],
+              ['t' => 'The Mountain', 'i' => 'assets/images/ProjectMountain.png', 'link' => 'https://diana-mountain.projets.garage404.com/'],
+              ['t' => 'Luxury Services', 'i' => 'assets/images/ProjectLuxuryServices.png', 'link' => 'http://diana-luxury-services.projets.garage404.com/'],
+              ['t' => 'Comparoperator', 'i' => 'assets/images/ProjectComparoperator.png', 'link' => 'https://diana-comparoperator.projets.garage404.com/'],
+              ['t' => 'ZOO', 'i' => 'assets/images/ProjectZOO.png', 'link' => 'https://diana-zoo.projets.garage404.com/'],
+              ['t' => 'Combat', 'i' => 'assets/images/ProjectCombat.png', 'link' => 'https://diana-combat.projets.garage404.com/'],
+              ['t' => 'Yellow', 'i' => 'assets/images/ProjectYellow.png', 'link' => 'https://diana-yellow.projets.garage404.com/'],
+              ['t' => 'QUIZ', 'i' => 'assets/images/ProjectQUIZ.png', 'link' => 'https://diana-quiz.projets.garage404.com/'],
               // ['t' => 'The Man', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-man.png'],
               // ['t' => 'D', 'i' => 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/9473/i-d.png'],
             ];
@@ -160,19 +168,21 @@
 
             foreach ($items as $index => $item) { ?>
               <div class="item">
-                <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
-                  <defs>
-                    <clipPath id="clip-<?php echo $index; ?>">
-                      <circle cx="0" cy="0" r="150px" fill="#000"></circle>
-                    </clipPath>
-                  </defs>
-                  <text class="svg-text" x="50%" y="50%" dy=".3em"><?php echo $item['t']; ?></text>
-                  <g clip-path="url(#clip-<?php echo $index; ?>)">
-                    <image href="<?php echo $item['i']; ?>" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="img-projects" />
+                <a href="<?php echo $item['link'] ?>" target="_blank">
+                  <svg viewBox="0 0 300 200" preserveAspectRatio="xMidYMid slice">
+                    <defs>
+                      <clipPath id="clip-<?php echo $index; ?>">
+                        <circle cx="0" cy="0" r="150px" fill="#000"></circle>
+                      </clipPath>
+                    </defs>
+                    <text class="svg-text" x="50%" y="50%" dy=".3em"><?php echo $item['t']; ?></text>
+                    <g clip-path="url(#clip-<?php echo $index; ?>)">
+                      <image href="<?php echo $item['i']; ?>" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" class="img-projects" />
 
-                    <text class="svg-masked-text" x="50%" y="50%" dy=".3em"><?php echo $item['t']; ?></text>
-                  </g>
-                </svg>
+                      <text class="svg-masked-text" x="50%" y="50%" dy=".3em"><?php echo $item['t']; ?></text>
+                    </g>
+                  </svg>
+                </a>
               </div>
             <?php } ?>
           </div>
@@ -193,29 +203,29 @@
         Contact <span class="email-icon">✉</span> diananovak871@gmail.com
       </p>
     </div>
-  
-  <!-- socialmedia-horizontal elements for mob version -->
-  <section class="socialmedia-horizontal">
-    <div>
-      <i class="sm-item">
-        <a href="https://linkedin.com/in/diana-novikova-voskanyan-587210250">
-          <img src="./assets/images/linkedin.png" width="48" height="48" loading="lazy" />
-        </a>
-      </i>
+
+    <!-- socialmedia-horizontal elements for mob version -->
+    <section class="socialmedia-horizontal">
+      <div>
+        <i class="sm-item">
+          <a href="https://linkedin.com/in/diana-novikova-voskanyan-587210250" target="_blank">
+            <img src="./assets/images/linkedin.png" width="48" height="48" loading="lazy" />
+          </a>
+        </i>
       </div>
-    <div>
-      <i class="sm-item">
-        <a href="https://github.com/Diana0806">
-          <img src="./assets/images/github.png" width="48" height="48" loading="lazy" /></a>
-      </i>
-    </div>
-    <div>
-      <i class="sm-item">
-        <a href="https://www.behance.net/diananovikova4">
-          <img src="./assets/images/behance.png" width="48" height="48" loading="lazy" /></a>
-      </i>
-    </div>
-  </section>
+      <div>
+        <i class="sm-item">
+          <a href="https://github.com/Diana0806" target="_blank">
+            <img src="./assets/images/github.png" width="48" height="48" loading="lazy" /></a>
+        </i>
+      </div>
+      <div>
+        <i class="sm-item">
+          <a href="https://www.behance.net/diananovikova4" target="_blank">
+            <img src="./assets/images/behance.png" width="48" height="48" loading="lazy" /></a>
+        </i>
+      </div>
+    </section>
   </footer>
 
   <script src="./assets/script.js"></script>
