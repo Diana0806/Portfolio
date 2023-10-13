@@ -36,7 +36,7 @@
               <a class="nav-link" href="#competences">Mes compétences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#items">Mes projets</a>
+              <a class="nav-link" href="#navalbumprojets">Mes projets</a>
             </li>
             <li class="nav-item">
               <a class="nav-link btn btn-primary" href="./assets/images/CV_Diana_Novikova.pdf" target="_blank">Télécharger mon CV</a>
@@ -77,7 +77,7 @@
 
   <main class="container">
     <div id="profile" class="row profil-title">
-      <div class="h-100 d-flex align-items-center">
+      <div class="profile-height d-flex align-items-center">
         <div class="d-flex align-items-center gap-4 row w-100">
           <div class="col-sm-3 d-flex justify-content-center">
             <img src="./assets/images/avatar.png" class="img-fluid" alt="Bootstrap Themes" width="250" height="250" loading="lazy" />
@@ -107,7 +107,7 @@
 
     <div id="competences" class="row competences">
       <div class="d-flex align-items-center gap-4">
-        <div class="dev col-md-7">
+        <div id="navcompetences" class="dev col-md-7">
           <h2 class="featurette-heading animated-title">
             Développeur Web Junior
           </h2>
@@ -144,14 +144,14 @@
     </div>
 
     <div id="projets">
-      <div class="projets py-5 text-center container">
+      <div id="navalbumprojets" class="projets py-5 text-center container">
         <h2 class="fw-light">Mes Projets</h2>
       </div>
 
-      <div class="albumprojets">
+      <div  class="albumprojets">
         <div class="container">
 
-          <div id="items" class="items">
+          <div class="items">
             <?php
             $items = [
               ['t' => 'The Mountain', 'i' => 'assets/images/ProjectMountain.png', 'link' => 'https://diana-mountain.projets.garage404.com/'],

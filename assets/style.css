@@ -7,11 +7,31 @@
   
 }
 
-@media (max-width: 600px) {
+@media (max-width: 834px) {
 
   /*mobile */
   .container {
     width: 90%;
+  }
+
+  header {
+    background-image: none !important;
+  }
+
+  body {
+    background-image: url('./images/mob-background.jpg') !important;
+    background-size: contain !important;
+  }
+
+  .navbar .container{
+    background-color: #DFD6DB;
+    padding: 0px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+  }
+
+  .btn-primary {
+    padding-right: 0px;
   }
 
   .socialmedia-horizontal .sm-item img {
@@ -47,6 +67,10 @@
     font-size: 16px !important;
   }
 
+  .profile-height {
+    height: 60% !important;
+  }
+
   .profil p {
     font-size: 18px !important;
     padding-left: 4px !important;
@@ -80,7 +104,7 @@
   }
 
   .softskills h2 {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   .skills p {
@@ -92,11 +116,27 @@
   }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 836px) and (max-width: 1024px) {
 
   /*tablets */
   .container {
     width: 90%;
+  }
+
+  header {
+    background-image: none !important;
+  }
+
+  .navbar .container{
+    background-color: #DFD6DB;
+    padding: 0px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+  }
+
+  body {
+    background-image: url("./images/tab-background.jpg");
+    background-size: contain !important;
   }
 
   .sm-item img {
@@ -117,6 +157,10 @@
     font-size: 18px !important;
   }
 
+  .profile-height {
+    height: 100% !important;
+  }
+
   .profil p {
     font-size: 20px !important;
     padding-left: 4px !important;
@@ -124,12 +168,12 @@
   }
 
   .profil h3 {
-    font-size: 48px !important;
+    font-size: 38px !important;
     box-sizing: border-box;
   }
 
   .dev h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .dev p {
@@ -137,7 +181,7 @@
   }
 
   .ux h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .ux p {
@@ -149,7 +193,7 @@
   }
 
   .skills p {
-    font-size: 18px;
+    font-size: 28px;
   }
 
   .socialmedia-horizontal {
@@ -160,13 +204,47 @@
     font-size: 28px;
   }
 
+  #profile {
+    height: 60vh !important;
+  }
+
+  #competences {
+    padding-top: 0px !important;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100vh;
+  }
+
+  
+  .softskills {
+    margin-top: 120px !important;
+  }  
+  
+  #projets {
+    padding-top: 30px !important;
+    height: 100vh;
+  }
+
+  #navalbumprojets {
+    padding-top: 80px !important;
+    padding-bottom: 20px !important;
+  }
+
+  footer {
+    margin-top: 220px !important;
+    }
+
 }
 
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1439px) {
 
   /*laptops */
   .container {
     width: 90%;
+  }
+
+  .navbar .container{
+    background:none;
   }
 
   .sm-item img {
@@ -229,31 +307,35 @@
   }
 
   #competences {
-    padding-top: 220px !important;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-top: 250px !important;
+    padding-left: 70px;
+    padding-right: 70px;
     height: 100vh;
   }
   
   #projets {
-    padding-top: 720px !important;
+    padding-top: 800px !important;
     height: 100vh;
   }
 
   .softskills {
-    margin-top: 400px !important;
+    margin-top: 460px !important;
   }  
 
   footer {
-    margin-top: 1000px !important;
+    margin-top: 800px !important;
     }
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1440px) {
 
   /*ordis*/
   .container {
     width: 90%;
+  }
+
+  .navbar .container{
+    background:none;
   }
 
   .nav-link {
@@ -302,7 +384,7 @@
   }
 
   .softskills {
-    margin-top: 700px !important;
+    margin-top: 800px !important;
   }  
 }
 
@@ -331,23 +413,35 @@ header {
   z-index: 100;
 }
 
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {     
+  outline: none !important;     
+  box-shadow: none !important; 
+}
+
+.container button {
+  background-color: #885E6C;
+  display: flex;
+  align-items: center;
+}
+
+
 body {
   background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: linear-gradient(#E0DADE, #D9D0D5);
-}
-
-.nav-link {
-  color: #040507 !important;
-  /* font-family: "Josefin Sans", sans-serif; */
-  /* font-size: 20px !important; */
+  background-color: #DFD6DB !important;
+  height: 2000px;
 }
 
 .btn-primary {
   color: #040507 !important;
   background-color: #cb7381 !important;
   border-color: #cb7381 !important;
+}
+
+
+.profile-height {
+  height: 100%;
 }
 
 .profil {
@@ -376,7 +470,7 @@ body {
 }
 
 #projets {
-  padding-top: 1000px;
+  padding-top: 1100px;
   height: 100vh;
 }
 
@@ -399,6 +493,8 @@ body {
   color: #e6dfe4 !important;
   /* font-family: "Josefin Sans", sans-serif !important; */
 }
+
+/* Name animation */
 
 .text-animation {
   display: inline-block;
@@ -438,6 +534,8 @@ body {
   width: 0;
 }
 
+/* Social Media icons animation */
+
 .socialmedia {
   position: fixed;
   left: 20px;
@@ -451,7 +549,8 @@ body {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
-  transition: all .5s ease-in-out;
+  transition: transform 0.5s ease-in-out; /* for smooth animation */
+  /* transition: all .5s ease-in-out; */
 
 }
 
@@ -517,7 +616,6 @@ ul li:hover~.cursor {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Центрирование вертикально и горизонтально */
 }
 
 #scrollToTop:hover {
@@ -664,5 +762,5 @@ text {
 }
 
 footer {
-margin-top: 600px;
+  margin-top: 600px;
 }
