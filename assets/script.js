@@ -111,7 +111,7 @@ function Item(config) {
     this[item] = config[item];
   }, this);
   this.el.addEventListener('mousemove', this.mouseMoveHandler.bind(this));
-  this.el.addEventListener('click', this.touchMoveHandler.bind(this));
+  this.el.addEventListener('touchmove', this.touchMoveHandler.bind(this));
 }
 
 Item.prototype = {
