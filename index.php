@@ -143,6 +143,35 @@
       </div>
     </div>
 
+    <div id="mobcompetences" class="row mobcompetences">
+     <div class="mobdev col">
+          <h4 class="featurette-heading animated-title">Développeur Web Junior</h4>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>PHP</p>
+          <p>GitHub</p>
+          <p>WordPress</p>
+          <p>Bootstrap</p>
+          <p>React</p>
+          <p>Symfony</p>
+     </div>
+     <div class="mobux col text-end">
+          <h4 class="featurette-heading animated-title">Designer UX/UI</h4>
+          <p>Figma</p>
+          <p>Adobe XD</p>
+          <p>Miro</p>
+      </div>
+      <div class="mobux col text-start">
+          <h4 class="featurette-heading animated-title">Soft Skills</h4>
+          <p>Créativité</p>
+            <p>Empathie</p>
+            <p>Travail en équipe</p>
+            <p>Sens de la communication</p>
+            <p>Persévérance</p>
+     </div>
+    </div>
+
     <div id="projets">
       <div id="navalbumprojets" class="projets py-5 text-center container">
         <h2 class="fw-light">Mes Projets</h2>
@@ -206,6 +235,7 @@
 
     <!-- socialmedia-horizontal elements for mob version -->
     <section class="socialmedia-horizontal">
+    <div class="sm-hor col">
       <div>
         <i class="sm-item">
           <a href="https://linkedin.com/in/diana-novikova-voskanyan-587210250" target="_blank">
@@ -225,6 +255,7 @@
             <img src="./assets/images/behance.png" width="48" height="48" loading="lazy" /></a>
         </i>
       </div>
+    </div>
     </section>
   </footer>
 
