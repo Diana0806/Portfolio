@@ -34,6 +34,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#competences">Mes compétences</a>
+              <a class="nav-link" href="#mobcompetences" id="mobCompetencesLink" style="display: none;">Mes compétences (Mobile)</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#navalbumprojets">Mes projets</a>
