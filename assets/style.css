@@ -95,7 +95,7 @@
   /* Competences animation */
   #mobcompetences {
     display: block;
-    padding-top: 100px !important;
+    margin-top: 120px;
   }
 
   #mobcompetences p {
